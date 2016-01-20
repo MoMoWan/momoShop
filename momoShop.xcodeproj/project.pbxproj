@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA9CAF671C4FA34B001D8215 /* ProjectTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAF661C4FA34B001D8215 /* ProjectTabBarController.swift */; };
+		FA9CAF691C4FA40C001D8215 /* FirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9CAF681C4FA40C001D8215 /* FirstPage.storyboard */; };
+		FA9CAF6B1C4FA50E001D8215 /* ShengXianVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAF6A1C4FA50E001D8215 /* ShengXianVC.swift */; };
+		FA9CAF6D1C4FA6BF001D8215 /* Goods.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9CAF6C1C4FA6BF001D8215 /* Goods.storyboard */; };
+		FA9CAF6F1C4FA700001D8215 /* ChangGouRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAF6E1C4FA700001D8215 /* ChangGouRootVC.swift */; };
 		FAC673F11C4E867300BAC4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */; };
 		FAC673F31C4E867300BAC4D5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC673F21C4E867300BAC4D5 /* FirstViewController.swift */; };
 		FAC673F51C4E867300BAC4D5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC673F41C4E867300BAC4D5 /* SecondViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA9CAF661C4FA34B001D8215 /* ProjectTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectTabBarController.swift; path = Other/ProjectTabBarController.swift; sourceTree = "<group>"; };
+		FA9CAF681C4FA40C001D8215 /* FirstPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FirstPage.storyboard; sourceTree = "<group>"; };
+		FA9CAF6A1C4FA50E001D8215 /* ShengXianVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShengXianVC.swift; path = FirstPage/ShengXianVC.swift; sourceTree = "<group>"; };
+		FA9CAF6C1C4FA6BF001D8215 /* Goods.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Goods.storyboard; sourceTree = "<group>"; };
+		FA9CAF6E1C4FA700001D8215 /* ChangGouRootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangGouRootVC.swift; path = Goods/ChangGouRootVC.swift; sourceTree = "<group>"; };
 		FAC673ED1C4E867300BAC4D5 /* momoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC673F21C4E867300BAC4D5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +47,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA9CAF601C4FA06B001D8215 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CAF681C4FA40C001D8215 /* FirstPage.storyboard */,
+				FA9CAF6A1C4FA50E001D8215 /* ShengXianVC.swift */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		FA9CAF611C4FA0A6001D8215 /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CAF6C1C4FA6BF001D8215 /* Goods.storyboard */,
+				FA9CAF6E1C4FA700001D8215 /* ChangGouRootVC.swift */,
+			);
+			name = Goods;
+			sourceTree = "<group>";
+		};
+		FA9CAF621C4FA0BC001D8215 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		FA9CAF631C4FA0CC001D8215 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MyInfo;
+			sourceTree = "<group>";
+		};
+		FA9CAF641C4FA0D9001D8215 /* UploadProduct */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UploadProduct;
+			sourceTree = "<group>";
+		};
+		FA9CAF651C4FA0F2001D8215 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FAC673F21C4E867300BAC4D5 /* FirstViewController.swift */,
+				FAC673F41C4E867300BAC4D5 /* SecondViewController.swift */,
+				FAC673F61C4E867300BAC4D5 /* Main.storyboard */,
+				FA9CAF661C4FA34B001D8215 /* ProjectTabBarController.swift */,
+				FAC673F91C4E867300BAC4D5 /* Assets.xcassets */,
+				FAC673FB1C4E867300BAC4D5 /* LaunchScreen.storyboard */,
+				FAC673FE1C4E867300BAC4D5 /* Info.plist */,
+				FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		FAC673E41C4E867300BAC4D5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +120,12 @@
 		FAC673EF1C4E867300BAC4D5 /* momoShop */ = {
 			isa = PBXGroup;
 			children = (
-				FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */,
-				FAC673F21C4E867300BAC4D5 /* FirstViewController.swift */,
-				FAC673F41C4E867300BAC4D5 /* SecondViewController.swift */,
-				FAC673F61C4E867300BAC4D5 /* Main.storyboard */,
-				FAC673F91C4E867300BAC4D5 /* Assets.xcassets */,
-				FAC673FB1C4E867300BAC4D5 /* LaunchScreen.storyboard */,
-				FAC673FE1C4E867300BAC4D5 /* Info.plist */,
+				FA9CAF651C4FA0F2001D8215 /* Other */,
+				FA9CAF641C4FA0D9001D8215 /* UploadProduct */,
+				FA9CAF631C4FA0CC001D8215 /* MyInfo */,
+				FA9CAF621C4FA0BC001D8215 /* ShoppingCar */,
+				FA9CAF611C4FA0A6001D8215 /* Goods */,
+				FA9CAF601C4FA06B001D8215 /* FirstPage */,
 			);
 			path = momoShop;
 			sourceTree = "<group>";
@@ -99,7 +162,6 @@
 				TargetAttributes = {
 					FAC673EC1C4E867300BAC4D5 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = ESAGTRL4AH;
 					};
 				};
 			};
@@ -126,7 +188,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9CAF691C4FA40C001D8215 /* FirstPage.storyboard in Resources */,
 				FAC673FD1C4E867300BAC4D5 /* LaunchScreen.storyboard in Resources */,
+				FA9CAF6D1C4FA6BF001D8215 /* Goods.storyboard in Resources */,
 				FAC673FA1C4E867300BAC4D5 /* Assets.xcassets in Resources */,
 				FAC673F81C4E867300BAC4D5 /* Main.storyboard in Resources */,
 			);
@@ -139,9 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9CAF6F1C4FA700001D8215 /* ChangGouRootVC.swift in Sources */,
 				FAC673F51C4E867300BAC4D5 /* SecondViewController.swift in Sources */,
 				FAC673F11C4E867300BAC4D5 /* AppDelegate.swift in Sources */,
 				FAC673F31C4E867300BAC4D5 /* FirstViewController.swift in Sources */,
+				FA9CAF6B1C4FA50E001D8215 /* ShengXianVC.swift in Sources */,
+				FA9CAF671C4FA34B001D8215 /* ProjectTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +319,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = momoShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MoMoIOS.momoShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,7 +332,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = momoShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MoMoIOS.momoShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +360,7 @@
 				FAC674031C4E867300BAC4D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
