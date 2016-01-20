@@ -9,6 +9,14 @@
 import UIKit
 
 class ShengXianVC: UITableViewController {
+    
+    func setTableViewBackGroundView(){
+        let backgroundView = UIImageView()
+        backgroundView.frame = self.view.frame
+        backgroundView.image = UIImage(named: "noData")
+        backgroundView.contentMode = UIViewContentMode.Center
+        self.tableView.backgroundView = backgroundView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +26,8 @@ class ShengXianVC: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        setTableViewBackGroundView()
     }
 
     override func didReceiveMemoryWarning() {
