@@ -1,5 +1,5 @@
 //
-//  ProjectTabBarController.swift
+//  UploadNewProductVC.swift
 //  momoShop
 //
 //  Created by 默默 on 16/1/20.
@@ -8,19 +8,12 @@
 
 import UIKit
 
-class ProjectTabBarController: UITabBarController {
+class UploadNewProductVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        //
-        let shengXianVC  = UIStoryboard(name: "FirstPage", bundle: nil).instantiateViewControllerWithIdentifier("ShengXianVC") as! ShengXianVC
-        let changGouRootVC = UIStoryboard(name: "Goods", bundle: nil).instantiateViewControllerWithIdentifier("ChangGouRootVC") as! ChangGouRootVC
-        
-        let uploadNewProductVC = UIStoryboard(name: "ManageProduct", bundle: nil).instantiateViewControllerWithIdentifier("UploadNewProductVC") as! UploadNewProductVC
-
-        self.viewControllers = [shengXianVC,changGouRootVC,uploadNewProductVC]
     }
 
     override func didReceiveMemoryWarning() {

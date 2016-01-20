@@ -54,6 +54,8 @@
 		FA9CAFFC1C4FC630001D8215 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAFEB1C4FC630001D8215 /* IQToolbar.m */; };
 		FA9CAFFD1C4FC630001D8215 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9CAFED1C4FC630001D8215 /* IQUIView+IQKeyboardToolbar.m */; };
 		FA9CAFFE1C4FC630001D8215 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA9CAFF01C4FC630001D8215 /* IQKeyboardManager.bundle */; };
+		FA9CB0001C4FCA4C001D8215 /* ManageProduct.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9CAFFF1C4FCA4C001D8215 /* ManageProduct.storyboard */; };
+		FA9CB0021C4FCBE8001D8215 /* UploadNewProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CB0011C4FCBE8001D8215 /* UploadNewProductVC.swift */; };
 		FAC673F11C4E867300BAC4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */; };
 		FAC673F81C4E867300BAC4D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC673F61C4E867300BAC4D5 /* Main.storyboard */; };
 		FAC673FA1C4E867300BAC4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC673F91C4E867300BAC4D5 /* Assets.xcassets */; };
@@ -153,6 +155,8 @@
 		FA9CAFED1C4FC630001D8215 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		FA9CAFEE1C4FC630001D8215 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
 		FA9CAFF01C4FC630001D8215 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		FA9CAFFF1C4FCA4C001D8215 /* ManageProduct.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ManageProduct.storyboard; sourceTree = "<group>"; };
+		FA9CB0011C4FCBE8001D8215 /* UploadNewProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadNewProductVC.swift; path = UploadProduct/UploadNewProductVC.swift; sourceTree = "<group>"; };
 		FAC673ED1C4E867300BAC4D5 /* momoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC673F71C4E867300BAC4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 		FA9CAF641C4FA0D9001D8215 /* UploadProduct */ = {
 			isa = PBXGroup;
 			children = (
+				FA9CAFFF1C4FCA4C001D8215 /* ManageProduct.storyboard */,
+				FA9CB0011C4FCBE8001D8215 /* UploadNewProductVC.swift */,
 			);
 			name = UploadProduct;
 			sourceTree = "<group>";
@@ -546,6 +552,7 @@
 				FAC673FA1C4E867300BAC4D5 /* Assets.xcassets in Resources */,
 				FA9CAFFE1C4FC630001D8215 /* IQKeyboardManager.bundle in Resources */,
 				FAC673F81C4E867300BAC4D5 /* Main.storyboard in Resources */,
+				FA9CB0001C4FCA4C001D8215 /* ManageProduct.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +628,7 @@
 				FA9CAF9F1C4FC092001D8215 /* MJRefreshAutoFooter.m in Sources */,
 				FA9CAF6F1C4FA700001D8215 /* ChangGouRootVC.swift in Sources */,
 				FA9CAFF51C4FC630001D8215 /* IQUIViewController+Additions.m in Sources */,
+				FA9CB0021C4FCBE8001D8215 /* UploadNewProductVC.swift in Sources */,
 				FA9CAFB11C4FC092001D8215 /* UIView+MJExtension.m in Sources */,
 				FA9CAFA31C4FC092001D8215 /* MJRefreshHeader.m in Sources */,
 				FA9CAFA71C4FC092001D8215 /* MJRefreshBackGifFooter.m in Sources */,

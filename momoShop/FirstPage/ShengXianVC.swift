@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ShengXianVC: UITableViewController {
     
@@ -102,4 +103,8 @@ class ShengXianVC: UITableViewController {
     }
     */
 
+}
+
+extension ShengXianVC{
+    
 }
