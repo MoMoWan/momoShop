@@ -9,6 +9,12 @@
 import UIKit
 
 class UploadNewProductVC: UIViewController {
+    
+    
+    @IBAction func addProductImg(sender: UIButton) {
+        NSLog("sender.tag = \(sender.tag)")
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

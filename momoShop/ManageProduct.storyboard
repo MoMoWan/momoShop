@@ -38,45 +38,60 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjS-i0-N5N">
                                                 <rect key="frame" x="21" y="478" width="90" height="90"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyE-Sz-VSJ">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyE-Sz-VSJ">
                                                 <rect key="frame" x="21" y="86" width="90" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="6g1-SO-u8F"/>
                                                     <constraint firstAttribute="width" constant="90" id="Nne-Jo-BHb"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="addProductImg:" destination="HyQ-xh-x7d" eventType="touchUpInside" id="A0s-Wg-8uK"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKp-55-9LM">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKp-55-9LM">
                                                 <rect key="frame" x="21" y="184" width="90" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="73U-1s-VX8"/>
                                                     <constraint firstAttribute="width" constant="90" id="Qkf-CE-X9g"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="addProductImg:" destination="HyQ-xh-x7d" eventType="touchUpInside" id="NzB-18-hRR"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0h-2F-XA0">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0h-2F-XA0">
                                                 <rect key="frame" x="21" y="282" width="90" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="KKY-13-6Wb"/>
                                                     <constraint firstAttribute="width" constant="90" id="zQK-3C-NRm"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="addProductImg:" destination="HyQ-xh-x7d" eventType="touchUpInside" id="a5W-ko-wJL"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5g-xr-gEh">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5g-xr-gEh">
                                                 <rect key="frame" x="21" y="380" width="90" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="UUf-vz-9LU"/>
                                                     <constraint firstAttribute="height" constant="90" id="tCo-Yp-0ae"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="addProductImg:" destination="HyQ-xh-x7d" eventType="touchUpInside" id="lMb-uc-kfK"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivd-4b-HXh">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivd-4b-HXh">
                                                 <rect key="frame" x="21" y="478" width="90" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="AY5-K6-o3L"/>
                                                     <constraint firstAttribute="width" constant="90" id="FXP-cZ-eAJ"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="addProductImg:" destination="HyQ-xh-x7d" eventType="touchUpInside" id="9nq-L6-Pn3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
