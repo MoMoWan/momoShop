@@ -108,6 +108,7 @@
 		FA9CAFBF1C4FC1A3001D8215 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		FA9CAFC01C4FC1A3001D8215 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		FA9CAFC11C4FC1A3001D8215 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		FA9CAFCC1C4FC383001D8215 /* swiftWithOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftWithOC.h; sourceTree = "<group>"; };
 		FAC673ED1C4E867300BAC4D5 /* momoShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momoShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC673F71C4E867300BAC4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -196,6 +197,7 @@
 				FAC673FB1C4E867300BAC4D5 /* LaunchScreen.storyboard */,
 				FAC673FE1C4E867300BAC4D5 /* Info.plist */,
 				FAC673F01C4E867300BAC4D5 /* AppDelegate.swift */,
+				FA9CAFCC1C4FC383001D8215 /* swiftWithOC.h */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -625,6 +627,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MoMoIOS.momoShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = momoshop/swiftWithOC.h;
 			};
 			name = Debug;
 		};
@@ -639,6 +642,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MoMoIOS.momoShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = momoshop/swiftWithOC.h;
 			};
 			name = Release;
 		};
