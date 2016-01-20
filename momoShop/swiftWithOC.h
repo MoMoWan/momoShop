@@ -8,3 +8,4 @@
 
 #import "SDCycleScrollView.h"
 #import "MJRefresh.h"
+#import "IQKeyboardManager.h"
